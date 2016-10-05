@@ -1,0 +1,27 @@
+<script>
+	function Person(){
+		this.name = "Anand";
+	}
+	
+	var myPerson = new Person();
+	console.log("1st Time - "+ myPerson.name )
+	
+	myPerson.name = "Deep"
+	console.log("2nd time - "+ myPerson.name )
+	
+	
+	Person.prototype.talk = function(bla){					// Inheritance
+		console.log(bla)
+	}
+	
+	myPerson.talk("bolo");
+	myPerson.talk("main nahi bolta");
+	
+	function showName(obj){									// Polymorphism
+		console.log("-------- This is polymorphism-------------")
+		console.log(obj.name)
+	}
+	
+	showName(myPerson)
+	showName(Person)
+</script>

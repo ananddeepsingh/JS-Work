@@ -1,0 +1,10 @@
+
+Personal Application (P.A.) App
+
+	- Add Event
+		1) Birthday				-	Send Email, Send Message
+		2) Anniversary			- 	Send Email, Send Message
+		3) Wake Me Up			- 	Raise Alaram
+		4) Reminder to Call		-	Reminder 
+		5) Reminder to Meet		-	Reminder 
+		6) Medicine Reminder	-	Alaram Reminder 
